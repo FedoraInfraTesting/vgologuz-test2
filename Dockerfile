@@ -8,3 +8,4 @@ RUN dnf copr enable -y petersen/cabal-install && \
 ### DOPR END
 
 RUN dnf install -y python-copr copr-cli
+
