@@ -7,5 +7,4 @@ RUN dnf copr enable -y petersen/cabal-install && \
     dnf copr enable -y msuchy/copr
 ### DOPR END
 
-RUN dnf install -y python-copr copr-cli
-
+RUN dnf install -y python-copr
